@@ -1,2 +1,9 @@
 ### GET listar tudo
 GET http://localhost:5229/produtos
+
+### GET procurar por ID
+GET http://localhost:5229/produtos/1
+
+###POST
+POST http://localhost:5229/produtos
+Content-Type: Application/json
